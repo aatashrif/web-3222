@@ -1,4 +1,4 @@
-/*
+
 
 const hasAccessAdmin = (req,res,next)=>
 {
@@ -14,4 +14,3 @@ const hasAccessAdmin = (req,res,next)=>
 
 module.exports=hasAccessAdmin;
 
-*/
