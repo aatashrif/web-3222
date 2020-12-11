@@ -1,6 +1,6 @@
 /******** MONGOOSE.MODEL SETUP ********/
 /* MUST DECLARE OUTSIDE OF ROUTE SETTING TO AVOID ERR: Cannot overwrite `User` model once compiled. */
-/*
+
 const mongoose = require('mongoose');
 
 const Rooms = mongoose.Schema;
@@ -94,5 +94,5 @@ const UserSchema = new Users({
 // })
 
 const User = mongoose.model('User', UserSchema);
-*/
+
 module.exports=User;
