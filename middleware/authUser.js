@@ -1,4 +1,4 @@
-/* 
+
 const hasAccessUser = (req,res,next)=>
 {
     if(req.session.userInfo != null && req.session.userInfo.Admin == false)
@@ -12,5 +12,3 @@ const hasAccessUser = (req,res,next)=>
 }
 
 module.exports=hasAccessUser;
-
-*/
